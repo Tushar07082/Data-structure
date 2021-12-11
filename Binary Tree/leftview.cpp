@@ -38,6 +38,13 @@ void leftview(Node * a){
         }
 }
 int main(){
+        /*
+                    1
+                  /   \
+                 2     3
+                / \   / \
+               4   5 6   7
+        */
        Node * a = new Node(1);
        a->left = new Node(2);
        a->right = new Node(3);
