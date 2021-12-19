@@ -1,0 +1,1 @@
+{"name":"Local: adjacencymatrix","url":"c:\\Users\\ASUS\\Desktop\\Internship\\graphs\\adjacencymatrix.cpp","tests":[{"id":1639465136835,"input":"11 10\n0 1\n1 3\n2 4\n4 5\n5 6\n6 7\n7 8\n8 9\n9 4\n7 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ASUS\\Desktop\\Internship\\graphs\\adjacencymatrix.cpp","group":"local","local":true}

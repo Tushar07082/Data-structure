@@ -68,13 +68,13 @@ int main(){
                2      4
                 
         */
-       Node * root = NULL;
-        root = insertBST(root,5);
-        root = insertBST(root,1);
-        root = insertBST(root,3);
-        root = insertBST(root,4);
-        root = insertBST(root,2);
-        root = insertBST(root,7);
+       Node * root = new Node(1);
+       root->left = new Node(2);
+       root->left->left = new Node(4);
+       root->right = new Node(3);
+       root->right->right = new Node(5);
+//        root->left->right->left = new Node(2);
+//        root->left->right->right = new Node(4);
         zigzag(root);
         cout<<endl; 
 }
